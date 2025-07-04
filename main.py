@@ -2228,7 +2228,7 @@ class UltraFastSMTPChecker:
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("⚡ Ultra-Fast SMTP Checker v2.0 - Professional Edition")
+        self.setWindowTitle("⚡ SwiftMail Validator v2.0 - Professional Edition")
         self.setMinimumSize(1200, 900)
         
         # Initialize components
@@ -2301,7 +2301,7 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout(panel)
         
         # Header
-        header = QLabel("⚡ Ultra-Fast SMTP Checker v2.0")
+        header = QLabel("⚡ SwiftMail Validator v2.0")
         header.setStyleSheet("""
             font-size: 18px; 
             font-weight: bold; 
@@ -2834,7 +2834,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     
     # Set application properties
-    app.setApplicationName("Ultra-Fast SMTP Checker")
+    app.setApplicationName("SwiftMail Validator")
     app.setApplicationVersion("2.0")
     app.setOrganizationName("SMTP Tools")
     
